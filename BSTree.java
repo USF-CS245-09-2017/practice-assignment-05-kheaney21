@@ -94,7 +94,7 @@ public class BSTree {
 				node.left = node.left.right;
 				return smallest;
 			} else {
-					return removeSmallest(node.left);
+				return removeSmallest(node.left);
 			}
 	}
 	
